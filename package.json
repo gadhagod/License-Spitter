@@ -1,0 +1,34 @@
+{
+  "name": "license-spitter",
+  "version": "2.0.0",
+  "description": "Create software licenses with filled fields from your command line",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/gadhagod/licenser"
+  },
+  "keywords": [
+    "CLI",
+    "license"
+  ],
+  "bin": {
+    "license": "./index.js",
+    "license-mit": "./mit.js",
+    "license-apache": "./apache.js",
+    "license-mpl": "./mpl.js",
+    "license-isc": "./isc.js",
+    "license-gpl": "./gpl.js",
+    "license-lgpl": "./lgpl.js",
+    "license-bsd3": "./bsd3.js",
+    "license-bsd2": "./bsd2.js",
+    "license-cddl": "./cddl.js",
+    "license-epl": "./epl.js"
+  },
+  "author": "Aarav Borthakur",
+  "license": "MIT",
+  "dependencies": {
+    "fs": "0.0.1-security"
+  }
+}
